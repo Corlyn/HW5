@@ -1,0 +1,163 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:Brush Script MT,Cursive;
+	font-size: 22px;	
+}
+
+p {
+	font-size: 18px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+}
+}
+
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+	background:white; 
+}
+
+.about img {
+	width: 100%;
+	border:8px solid black;
+    box-shadow: 8px 8px #B23C15;
+}
+
+.title_line {
+	border:1px solid;
+	margin-bottom: 50px;
+
+}
+
+.story {
+	padding: 28px 0;
+	font-size: 18px;
+}
+
+.story span {
+	font-size: 25px;
+	display: block;
+}
+
+.portfolio {
+	padding:100px 0;
+	background:#B23C15; 
+}
+
+.portfolio.card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.portfolio img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.portfolio img:hover {
+	opacity: 0.8;
+}
+.portfolio_name {
+	padding: 10px;
+}
+
+.service {
+	padding:100px 0;
+	background:white; 
+}
+
+.col-md-4{
+	display: flex;
+	justify-content: center;
+}
+
+
+.title {
+	color: black;
+	font-size:28px;
+}
+
+.title_line {
+	border:1px solid black;
+}
+
+
+.contact {
+	height:700px;
+	padding:100px 0;
+	background-image: url(../img/contact_bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	font-size: 28px;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+
+input[type=submit] {
+	padding:0;
+	background-color: #B23C15;
+	color: white;
+	cursor: pointer;
+	width: 100%;
+	height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
